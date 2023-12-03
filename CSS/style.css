@@ -91,9 +91,9 @@
 }
 /* home */
 #home{
-    background-image: url(../images/bg.jpg);
+    background-image: url(../IMAGES/bg.jpg) !important;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position:center center !important; ;
 }
 #home ul{
     min-width: 180px;
@@ -292,7 +292,6 @@
 }
 textarea{
     width: 97.5% !important;
-    margin: auto;
 }
 .out-line{
     outline: 0 !important;
